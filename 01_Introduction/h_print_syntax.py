@@ -78,4 +78,3 @@ print("12\r34")
 print("first\rsecond")
 print("abcdef\r1234")
 print("1234567\rDOG")
-
