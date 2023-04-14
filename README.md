@@ -33,3 +33,7 @@ Python Source code for Data Engineering related
 	- Python is Dynamic Typed Language
 	- Python is Strictly-Typed Language
 	- Python is both scripting and General purpose programming language
+
+
+
+pip install -U ipython jupyter --user
