@@ -68,11 +68,13 @@ Python Source code for Data Engineering related
             Indexing in Strings
             Slicing Strings
 
-### Class 07 - 19th April, 2023
+### [Class 07 - 19th April, 2023](https://youtu.be/L_-m9doR404)
             string attributes
 
-### NEXT CLASS
+### Class 08 - 20th April, 2023
             String formatting: old & new styles, f-strings
+
+### NEXT CLASS
             Immutability of strings
             bytearray() and byte() strings
             chr() and ord() functions
