@@ -71,8 +71,11 @@ Python Source code for Data Engineering related
 ### [Class 07 - 19th April, 2023](https://youtu.be/L_-m9doR404)
             string attributes
 
-### Class 08 - 20th April, 2023
-            String formatting: old & new styles, f-strings
+### [Class 08 - 20th April, 2023]
+            String formatting: old & new styles
+
+### [Class 09 - 21st April, 2023]
+            String formatting: f-strings and f-string assignments
 
 ### NEXT CLASS
             Immutability of strings
