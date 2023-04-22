@@ -40,6 +40,7 @@ Python Source code for Data Engineering related
 		Line continuation and statement separator operators
 		Using Ipython/ Jupyter Notebook
 
+    02.Basics
         Arithmetic operations
             +, -, *, /
 
@@ -71,19 +72,34 @@ Python Source code for Data Engineering related
 ### [Class 07 - 19th April, 2023](https://youtu.be/L_-m9doR404)
             string attributes
 
-### [Class 08 - 20th April, 2023]
+### [Class 08 - 20th April, 2023](https://youtu.be/2_j9XHDNgL4)
             String formatting: old & new styles
 
-### [Class 09 - 21st April, 2023]
+### [Class 09 - 21st April, 2023]()
             String formatting: f-strings and f-string assignments
+            unicode strings
+            chr() and ord() functions
+            bytearray()
 
-### NEXT CLASS
+### [Class 10 - 22nd April, 2023]()
             Immutability of strings
             bytearray() and byte() strings
-            chr() and ord() functions
-            unicode strings
             string module
 
+    03.Language Components
+        Relational Operations
+        Logical Operations
+        Boolean Operations
+        Bitwise Operations
+
+
+### NEXT CLASS
+        Identity Operations
+        range() function
+        Conditional Operations
+        Structural Pattern Matching
+        Loops: for & while, break, continue, pass, sys.exit
+        Walrus Operator
 
 ## How to Install Modules in Python
 	
