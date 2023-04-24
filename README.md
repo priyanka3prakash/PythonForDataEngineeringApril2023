@@ -75,13 +75,13 @@ Python Source code for Data Engineering related
 ### [Class 08 - 20th April, 2023](https://youtu.be/2_j9XHDNgL4)
             String formatting: old & new styles
 
-### [Class 09 - 21st April, 2023]()
+### [Class 09 - 21st April, 2023](https://youtu.be/pIw0vFh2nJQ)
             String formatting: f-strings and f-string assignments
             unicode strings
             chr() and ord() functions
             bytearray()
 
-### [Class 10 - 22nd April, 2023]()
+### [Class 10 - 22nd April, 2023](https://youtu.be/eIvhQtAHdj4)
             Immutability of strings
             bytearray() and byte() strings
             string module
@@ -92,15 +92,26 @@ Python Source code for Data Engineering related
         Boolean Operations
         Bitwise Operations
 
-
-### NEXT CLASS
+### [Class 11 - 24th April, 2023]()
         Identity Operations
         range() function
         Conditional Operations
+
+
+### NEXT CLASS
         Structural Pattern Matching
         Loops: for & while, break, continue, pass, sys.exit
         Walrus Operator
 
+    04.Exception Handling
+        Exceptions Hierarchy
+        Different types of errors, error vs exception and exception groups
+        Handling single and multiple exceptions
+        raising exceptions
+        asserts
+        traceback
+        warnings
+        
 ## How to Install Modules in Python
 	
 	pip install -U ipython jupyter --user
