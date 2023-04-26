@@ -92,15 +92,18 @@ Python Source code for Data Engineering related
         Boolean Operations
         Bitwise Operations
 
-### [Class 11 - 24th April, 2023]()
+### [Class 11 - 24th April, 2023](https://youtu.be/s35mt_K3g_Q)
         Identity Operations
         range() function
         Conditional Operations
 
+### [Class 12 - 26th April, 2023]()
+        Conditional Operations(continuation)
+        Structural Pattern Matching
+        Loops: for & while
 
 ### NEXT CLASS
-        Structural Pattern Matching
-        Loops: for & while, break, continue, pass, sys.exit
+        Loops: break, continue, pass, sys.exit
         Walrus Operator
 
     04.Exception Handling
