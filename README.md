@@ -97,24 +97,33 @@ Python Source code for Data Engineering related
         range() function
         Conditional Operations
 
-### [Class 12 - 26th April, 2023]()
+### [Class 12 - 26th April, 2023](https://youtu.be/l3KcErOqADM)
         Conditional Operations(continuation)
         Structural Pattern Matching
         Loops: for & while
 
-### NEXT CLASS
+### [Class 13 - 27th April, 2023]()
         Loops: break, continue, pass, sys.exit
         Walrus Operator
 
     04.Exception Handling
         Exceptions Hierarchy
         Different types of errors, error vs exception and exception groups
+
+### NEXT CLASS
         Handling single and multiple exceptions
         raising exceptions
         asserts
         traceback
         warnings
-        
+
+    05.Debugging
+        Importance of logical errors
+        Debugging with pydevd
+        Debugging with pdb, ipdb
+        breakpoint() function
+
+
 ## How to Install Modules in Python
 	
 	pip install -U ipython jupyter --user
