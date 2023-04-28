@@ -102,7 +102,7 @@ Python Source code for Data Engineering related
         Structural Pattern Matching
         Loops: for & while
 
-### [Class 13 - 27th April, 2023]()
+### [Class 13 - 27th April, 2023](https://youtu.be/uX0UjIB2eXY)
         Loops: break, continue, pass, sys.exit
         Walrus Operator
 
@@ -110,7 +110,7 @@ Python Source code for Data Engineering related
         Exceptions Hierarchy
         Different types of errors, error vs exception and exception groups
 
-### NEXT CLASS
+### [Class 14 - 28th April, 2023]()
         Handling single and multiple exceptions
         raising exceptions
         asserts
@@ -120,9 +120,20 @@ Python Source code for Data Engineering related
     05.Debugging
         Importance of logical errors
         Debugging with pydevd
-        Debugging with pdb, ipdb
+        Debugging with pdb, ipdb, pudb
         breakpoint() function
+        PYTHONBREAKPOINT environment variable usage
 
+### NEXT CLASS
+    06.Collections
+        Lists
+        Tuples
+        Sets
+        Dictionaries
+            zip() function
+            workaround for switch case
+        Comprehensions
+        Working with Iterables - sum(), max(), min()
 
 ## How to Install Modules in Python
 	
