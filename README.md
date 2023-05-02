@@ -110,7 +110,7 @@ Python Source code for Data Engineering related
         Exceptions Hierarchy
         Different types of errors, error vs exception and exception groups
 
-### [Class 14 - 28th April, 2023]()
+### [Class 14 - 28th April, 2023](https://youtu.be/IwyFk1UfiPc)
         Handling single and multiple exceptions
         raising exceptions
         asserts
@@ -124,9 +124,11 @@ Python Source code for Data Engineering related
         breakpoint() function
         PYTHONBREAKPOINT environment variable usage
 
-### NEXT CLASS
+### [Class 15 - 02nd May, 2023]()
     06.Collections
         Lists
+
+### NEXT CLASS
         Tuples
         Sets
         Dictionaries
