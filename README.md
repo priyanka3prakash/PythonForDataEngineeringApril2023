@@ -124,7 +124,7 @@ Python Source code for Data Engineering related
         breakpoint() function
         PYTHONBREAKPOINT environment variable usage
 
-### [Class 15 - 02nd May, 2023]()
+### [Class 15 - 02nd May, 2023](https://youtu.be/YSDCSEM7ebg)
     06.Collections
         Lists
 
