@@ -128,9 +128,11 @@ Python Source code for Data Engineering related
     06.Collections
         Lists
 
-### NEXT CLASS
-        Tuples
+### [Class 16 - 03rd May, 2023]()
+        Tuples & namedtuples
         Sets
+        
+### NEXT CLASS
         Dictionaries
             zip() function
             workaround for switch case
@@ -258,12 +260,29 @@ Python Source code for Data Engineering related
         consuming REST API
         scraping web pages
         creating web applications
+            using flask
+            using Django
 
-    18. Data Science
+    18. Data Science: Data Processing and Transformations
         statistics
         Numpy
         Pandas
         Matplotlib
+        
+        Introducing Platforms - Google Collab, Kaggle
+        EDA - Exploratory Data Analysis
+
+
+    17. Development with AWS Cloud
+        AWS cloud Importance & Introduction
+        AWS IAM - creating roles, generating secrets
+        EC2 instance
+        AWS Lambda - time, event and http triggers
+        boto3
+        s3 bucket
+        AWS Step functions
+        API Gateway
+
 
 ## How to Install Modules in Python
 	
