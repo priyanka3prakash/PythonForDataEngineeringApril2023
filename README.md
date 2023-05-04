@@ -128,14 +128,17 @@ Python Source code for Data Engineering related
     06.Collections
         Lists
 
-### [Class 16 - 03rd May, 2023]()
+### [Class 16 - 03rd May, 2023](https://youtu.be/y8WoHqXV8qk)
         Tuples & namedtuples
         Sets
         
-### NEXT CLASS
+### [Class 17 - 04th May, 2023]()
         Dictionaries
             zip() function
+
+### NEXT CLASS
             workaround for switch case
+
         Comprehensions
         Working with Iterables - sum(), max(), min()
 
