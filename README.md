@@ -132,26 +132,25 @@ Python Source code for Data Engineering related
         Tuples & namedtuples
         Sets
         
-### [Class 17 - 04th May, 2023]()
+### [Class 17 - 04th May, 2023](https://youtu.be/OGAFXUqGQtI)
         Dictionaries
             zip() function
 
-### [Class 18 - 05th May, 2023]()
+### [Class 18 - 05th May, 2023](https://youtu.be/gVlqr0BylWU)
         Dictinaries - Practical Problems & sorting
-
-### NEXT CLASS
             workaround for switch case
 
+### [Class 19 - 06th May, 2023]()
         Comprehensions
         Working with Iterables - sum(), max(), min()
-
-
-    07.Functions
+   07.Functions
         Functions with & without arguments, keyword arguments
         Functions with Different return types and unpacking
         Functions with with Default arguments
         variadic functions : variable arguments and variable keyword arguments
         Functions with keyword only arguments
+
+### NEXT CLASS
         Scoping: Global vs Local
             call by reference
             call by value
