@@ -140,10 +140,12 @@ Python Source code for Data Engineering related
         Dictinaries - Practical Problems & sorting
             workaround for switch case
 
-### [Class 19 - 06th May, 2023]()
+### [Class 19 - 06th May, 2023](https://youtu.be/AY8LLZf8cF4)
         Comprehensions
         Working with Iterables - sum(), max(), min()
-   07.Functions
+
+    07.Functions
+
         Functions with & without arguments, keyword arguments
         Functions with Different return types and unpacking
         Functions with with Default arguments
