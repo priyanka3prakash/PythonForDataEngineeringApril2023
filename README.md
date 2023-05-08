@@ -144,7 +144,7 @@ Python Source code for Data Engineering related
         Comprehensions
         Working with Iterables - sum(), max(), min()
 
-    07.Functions
+###  07. [Functions](https://youtu.be/B7UmRBTSvU8)
 
         Functions with & without arguments, keyword arguments
         Functions with Different return types and unpacking
@@ -152,7 +152,7 @@ Python Source code for Data Engineering related
         variadic functions : variable arguments and variable keyword arguments
         Functions with keyword only arguments
 
-### NEXT CLASS
+### [Class 20 - 08th May, 2023]()
         Scoping: Global vs Local
             call by reference
             call by value
@@ -162,6 +162,8 @@ Python Source code for Data Engineering related
         Recursions and recursions limit
         inner functions
         closures
+
+### NEXT CLASS
 
     08.Decorator Design Pattern
         Necessity
