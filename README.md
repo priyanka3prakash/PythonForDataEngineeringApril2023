@@ -171,17 +171,18 @@ Python Source code for Data Engineering related
         syntactic sugar for decorators
         multiple decorators on same function
         decorators with arguments
-        functools - wrap, lru_cache
-        class decorator
 
-### NEXT CLASS
-
+### [Class 22 - 10th May, 2023](https://youtu.be/8JxSG6Gmfqo)
     09.Iterables, Iterators, Generators and co-routines
         Iterables
             different ways of extracting values from iterables
         Iterators
             iter() protocol
             itertools module
+
+### NEXT CLASS
+
+class 23
         Generators
             yield vs return
             function vs Generator
@@ -190,22 +191,26 @@ Python Source code for Data Engineering related
         Coroutine
             Generator vs Coroutine
             coroutine pipelining
+class 24
 
     10.Modules
         Basic Modules
             - math, sys, argparse, os, shutil, pathlib, subprocess, getpass
         time related
             - time, datetime, pytz, timeit
+class 25
+
         concurrency
             - Multiprocessing, Multithreading
         others
             - random, collections, atexit, contextlib, base64, turtle, tqdm
-
+class 26
         create user-defined module
         creating user-defined package
 
     11.File Operations
         flat files
+class 27
         Non-flat files
             pickle
             shelve
@@ -224,6 +229,7 @@ Python Source code for Data Engineering related
         config files : .ini, .cfg
         pyw files
 
+class 28
     12.Logging
         Simple logging
         configuring log file
@@ -233,6 +239,7 @@ Python Source code for Data Engineering related
         color logging
         Rotating logger
 
+class 29
     13. OOP
         Importance of OOP
         Instantiation and managing attributes
@@ -240,6 +247,7 @@ Python Source code for Data Engineering related
         instance and class variables
         Encapsulation
         MRO, Single and multiple inheritance, composition
+class 30
         Method Overwriting, Operator Overloading
         instance, class and static methods
         property decorator
@@ -247,12 +255,13 @@ Python Source code for Data Engineering related
         reprlib module
         creating context manager class
         Dataclasses
-
+class 31
     14. Code Quality
         typing
         Doctest
         unittest
 
+class 32
     15. Regular Expressions
         re module
         compiling regex objects
@@ -260,33 +269,45 @@ Python Source code for Data Engineering related
         find & finditer
         regex Flags
         Greedy & Non-Greedy patterns
-
+class 33
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
 
+class 34
     17. Web Services
         consuming REST API
         scraping web pages
+
+class 35
         creating web applications
             using flask
             using Django
 
+class 36
     18. Data Science: Data Processing and Transformations
         statistics
         Numpy
+
+class 37
         Pandas
-        Matplotlib
-        
+
+class 38
+        PySpark
+        Matplotlib        
         Introducing Platforms - Google Collab, Kaggle
+
+class 39
         EDA - Exploratory Data Analysis
 
-
+class 40
     17. Development with AWS Cloud
         AWS cloud Importance & Introduction
         AWS IAM - creating roles, generating secrets
         EC2 instance
+
+class 41
         AWS Lambda - time, event and http triggers
         boto3
         s3 bucket
