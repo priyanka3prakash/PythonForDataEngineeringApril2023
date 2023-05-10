@@ -171,17 +171,16 @@ Python Source code for Data Engineering related
         syntactic sugar for decorators
         multiple decorators on same function
         decorators with arguments
-        functools - wrap, lru_cache
-        class decorator
 
-### NEXT CLASS
-
+### [Class 22 - 10th May, 2023](https://youtu.be/8JxSG6Gmfqo)
     09.Iterables, Iterators, Generators and co-routines
         Iterables
             different ways of extracting values from iterables
         Iterators
             iter() protocol
             itertools module
+
+### NEXT CLASS
         Generators
             yield vs return
             function vs Generator
