@@ -152,7 +152,7 @@ Python Source code for Data Engineering related
         variadic functions : variable arguments and variable keyword arguments
         Functions with keyword only arguments
 
-### [Class 20 - 08th May, 2023]()
+### [Class 20 - 08th May, 2023](https://youtu.be/EeNnvXe9Hlo)
         Scoping: Global vs Local
             call by reference
             call by value
@@ -163,8 +163,7 @@ Python Source code for Data Engineering related
         inner functions
         closures
 
-### NEXT CLASS
-
+### [Class 21 - 09th May, 2023](https://youtu.be/fQT_8Sdouig)
     08.Decorator Design Pattern
         Necessity
         function Decorator
@@ -174,6 +173,8 @@ Python Source code for Data Engineering related
         decorators with arguments
         functools - wrap, lru_cache
         class decorator
+
+### NEXT CLASS
 
     09.Iterables, Iterators, Generators and co-routines
         Iterables
