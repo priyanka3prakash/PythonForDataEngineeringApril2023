@@ -180,17 +180,19 @@ Python Source code for Data Engineering related
             iter() protocol
             itertools module
 
-### NEXT CLASS
-
-class 23
+### [Class 23 - 11th May, 2023]()
         Generators
             yield vs return
             function vs Generator
             Generator pipelining
             Generator Expression
+            Chaining Generator Expressions
         Coroutine
             Generator vs Coroutine
+            Infinite & Finite Receptions
             coroutine pipelining
+
+### NEXT CLASS
 class 24
 
     10.Modules
