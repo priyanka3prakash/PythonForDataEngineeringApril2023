@@ -193,15 +193,17 @@ Python Source code for Data Engineering related
             coroutine pipelining
             Introduction to asyncio
 
-### [Class 24 - 12th May, 2023]()
+### [Class 24 - 12th May, 2023](https://youtu.be/gHuWjqw0E20)
     10.Modules
         Basic Modules
             - math, sys
             - creating Virtual Environment
 
+### [Class 25 - 15th May, 2023]()
+            - sys, argparse, getpass
+            
 ### NEXT CLASS
-class 25
-            - sys, argparse, os, shutil, pathlib, subprocess, getpass
+            - os, shutil, pathlib, subprocess
         time related
             - time, datetime, pytz, timeit
 
