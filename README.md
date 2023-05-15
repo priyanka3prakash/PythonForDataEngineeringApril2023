@@ -180,7 +180,7 @@ Python Source code for Data Engineering related
             iter() protocol
             itertools module
 
-### [Class 23 - 11th May, 2023]()
+### [Class 23 - 11th May, 2023](https://youtu.be/UIEYDgbxR7M)
         Generators
             yield vs return
             function vs Generator
@@ -193,15 +193,17 @@ Python Source code for Data Engineering related
             coroutine pipelining
             Introduction to asyncio
 
-### NEXT CLASS
-class 24
-
+### [Class 24 - 12th May, 2023]()
     10.Modules
         Basic Modules
-            - math, sys, argparse, os, shutil, pathlib, subprocess, getpass
+            - math, sys
+            - creating Virtual Environment
+
+### NEXT CLASS
+class 25
+            - sys, argparse, os, shutil, pathlib, subprocess, getpass
         time related
             - time, datetime, pytz, timeit
-class 25
 
         concurrency
             - Multiprocessing, Multithreading
