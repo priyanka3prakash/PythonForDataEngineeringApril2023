@@ -21,7 +21,7 @@ Purpose: importance and usage of argparse
 # password = getpass.getpass('Enter password:')
 # server_name = input('Enter server name:')
 
-# # # Method 4: sys.argv
+# # Method 4: sys.argv
 # import sys
 
 # if len(sys.argv) != 4:
@@ -29,40 +29,36 @@ Purpose: importance and usage of argparse
 #     print(f'python {__file__} username password server_fqdn')
 #     sys.exit(1)
 
-# user_name = sys.argv[1]
-# password = sys.argv[2]
-# server_name = sys.argv[3]
+# # user_name = sys.argv[1]
+# # password = sys.argv[2]
+# # server_name = sys.argv[3]
 
-# unpacking
+# # unpacking
 # user_name, password, server_name = sys.argv[1:]
 
-
 # Method 5: argparse
+
 import argparse
 
 parser = argparse.ArgumentParser(
-    description="Details to login to server", epilog="-----Please follow help doc ----"
+    description="Details to login to server", 
+    epilog="-----Please follow help doc ----"
+
 )
 # description: for the text that is shown before the help text
 # epilog: for the text shown after the help text
 
-parser.add_argument("-u", "--username", help="login user name", type=str, required=True)
-parser.add_argument(
-    "-p", "--password", help="login user password", type=str, required=True
-)
-parser.add_argument(
-    "-s",
-    "--servername",
-    help="server name",
-    type=str,
-    required=False,
-    default="www.google.com",
-)
 
+parser.add_argument("-u", "--username", type=str, required=True,
+                    help="login user name")
+parser.add_argument("-p", "--password", type=str,
+                    help="login user password")
+parser.add_argument("-s", "--servername", type=str, default="photos.google.com",
+                    help="server name")
 
 args = parser.parse_args()
 
-user_name = args.username
+user_name= args.username
 password = args.password
 server_name = args.servername
 
