@@ -201,9 +201,12 @@ Python Source code for Data Engineering related
 
 ### [Class 25 - 15th May, 2023]()
             - sys, argparse, getpass
-            
+
+### [Class 26 - 16th May, 2023]()
+            - os, psutil, shutil, pathlib, glob
+
 ### NEXT CLASS
-            - os, shutil, pathlib, subprocess
+        subprocess
         time related
             - time, datetime, pytz, timeit
 
