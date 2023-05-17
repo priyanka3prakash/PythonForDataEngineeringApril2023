@@ -199,22 +199,22 @@ Python Source code for Data Engineering related
             - math, sys
             - creating Virtual Environment
 
-### [Class 25 - 15th May, 2023]()
+### [Class 25 - 15th May, 2023](https://youtu.be/IFkaFm1M_eE)
             - sys, argparse, getpass
 
-### [Class 26 - 16th May, 2023]()
+### [Class 26 - 16th May, 2023](https://youtu.be/bEh7kTpgz2M)
             - os, psutil, shutil, pathlib, glob
 
+### [Class 27 - 17th May, 2023]()
+            - subprocess, getpass, base64, pydotenv, qrcode
+
 ### NEXT CLASS
-        subprocess
+        others
+            - random, collections, atexit, tqdm
         time related
             - time, datetime, pytz, timeit
-
         concurrency
             - Multiprocessing, Multithreading
-        others
-            - random, collections, atexit, contextlib, base64, turtle, tqdm
-class 26
         create user-defined module
         creating user-defined package
 
