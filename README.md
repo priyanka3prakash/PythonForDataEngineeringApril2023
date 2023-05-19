@@ -212,8 +212,6 @@ Python Source code for Data Engineering related
             - collections, atexit, random
 
 ### NEXT CLASS
-        others
-            - random(continuation)
         time related
             - time, datetime, pytz, timeit
         create user-defined module
@@ -221,7 +219,9 @@ Python Source code for Data Engineering related
 
     11.File Operations
         flat files
+
 class 28
+
         Non-flat files
             pickle
             shelve
@@ -241,6 +241,7 @@ class 28
         pyw files
 
 class 29
+
     12.Logging
         Simple logging
         configuring log file
@@ -251,6 +252,7 @@ class 29
         Rotating logger
 
 class 30
+
     13. OOP
         Importance of OOP
         Instantiation and managing attributes
@@ -259,6 +261,7 @@ class 30
         Encapsulation
         MRO, Single and multiple inheritance, composition
 class 31
+
         Method Overwriting, Operator Overloading
         instance, class and static methods
         property decorator
@@ -266,13 +269,16 @@ class 31
         reprlib module
         creating context manager class
         Dataclasses
+
 class 32
+
     14. Code Quality
         typing
         Doctest
         unittest
 
 class 33
+
     15. Regular Expressions
         re module
         compiling regex objects
@@ -280,45 +286,55 @@ class 33
         find & finditer
         regex Flags
         Greedy & Non-Greedy patterns
+
 class 34
+
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
 
 class 35
+
     17. Web Services
         consuming REST API
         scraping web pages
 
 class 36
+
         creating web applications
             using flask
             using Django
 
 class 37
+
     18. Data Science: Data Processing and Transformations
         statistics
         Numpy
 
 class 38
+
         Pandas
 
 class 39
+
         PySpark
         Matplotlib        
         Introducing Platforms - Google Collab, Kaggle
 
 class 40
+
         EDA - Exploratory Data Analysis
 
 class 41
+
     17. Development with AWS Cloud
         AWS cloud Importance & Introduction
         AWS IAM - creating roles, generating secrets
         EC2 instance
 
 class 42
+
         AWS Lambda - time, event and http triggers
         boto3
         s3 bucket
