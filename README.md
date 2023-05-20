@@ -208,26 +208,31 @@ Python Source code for Data Engineering related
 ### [Class 27 - 17th May, 2023](https://youtu.be/2LGIFFADp04)
             - subprocess, getpass, base64, pydotenv, qrcode
 
-### [Class 28 - 17th May, 2023]()
+### [Class 28 - 18th May, 2023](https://youtu.be/g90NPtUcasc)
             - collections, atexit, random
 
-### NEXT CLASS
+### [Class 29 - 20th May, 2023]()
         time related
-            - time, datetime, pytz, timeit
-        create user-defined module
+            - time, datetime, pytz, timeit, calendar
+        create user-defined modules
         creating user-defined package
+        Uploading package to PyPi repository
+
+### NEXT CLASS
+
+class 30
 
     11.File Operations
         flat files
-
-class 28
-
         Non-flat files
             pickle
             shelve
             xml
             csv
             dat
+
+class 31
+
             xls/xlsx
             json
             yaml
@@ -240,7 +245,7 @@ class 28
         config files : .ini, .cfg
         pyw files
 
-class 29
+class 32
 
     12.Logging
         Simple logging
@@ -251,7 +256,7 @@ class 29
         color logging
         Rotating logger
 
-class 30
+class 33
 
     13. OOP
         Importance of OOP
@@ -260,7 +265,8 @@ class 30
         instance and class variables
         Encapsulation
         MRO, Single and multiple inheritance, composition
-class 31
+
+class 34
 
         Method Overwriting, Operator Overloading
         instance, class and static methods
@@ -270,14 +276,14 @@ class 31
         creating context manager class
         Dataclasses
 
-class 32
+class 35
 
     14. Code Quality
         typing
         Doctest
         unittest
 
-class 33
+class 36
 
     15. Regular Expressions
         re module
@@ -287,53 +293,53 @@ class 33
         regex Flags
         Greedy & Non-Greedy patterns
 
-class 34
+class 37
 
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
 
-class 35
+class 38
 
     17. Web Services
         consuming REST API
         scraping web pages
 
-class 36
+class 39
 
         creating web applications
             using flask
             using Django
 
-class 37
+class 40
 
     18. Data Science: Data Processing and Transformations
         statistics
         Numpy
 
-class 38
+class 41
 
         Pandas
 
-class 39
+class 42
 
         PySpark
         Matplotlib        
         Introducing Platforms - Google Collab, Kaggle
 
-class 40
+class 43
 
         EDA - Exploratory Data Analysis
 
-class 41
+class 44
 
     17. Development with AWS Cloud
         AWS cloud Importance & Introduction
         AWS IAM - creating roles, generating secrets
         EC2 instance
 
-class 42
+class 45
 
         AWS Lambda - time, event and http triggers
         boto3
