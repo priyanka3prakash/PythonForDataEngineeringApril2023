@@ -211,19 +211,20 @@ Python Source code for Data Engineering related
 ### [Class 28 - 18th May, 2023](https://youtu.be/g90NPtUcasc)
             - collections, atexit, random
 
-### [Class 29 - 20th May, 2023]()
+### [Class 29 - 20th May, 2023](https://youtu.be/JHSVy8j7F3s)
         time related
             - time, datetime, pytz, timeit, calendar
         create user-defined modules
         creating user-defined package
         Uploading package to PyPi repository
 
-### NEXT CLASS
-
-class 30
+### [Class 30 - 20th May, 2023]()
 
     11.File Operations
         flat files
+
+### NEXT CLASS
+
         Non-flat files
             pickle
             shelve
