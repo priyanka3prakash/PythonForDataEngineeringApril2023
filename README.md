@@ -218,21 +218,23 @@ Python Source code for Data Engineering related
         creating user-defined package
         Uploading package to PyPi repository
 
-### [Class 30 - 20th May, 2023]()
+### [Class 30 - 22nd May, 2023]()
 
     11.File Operations
         flat/unstructure files
 
-### NEXT CLASS
-
+### [Class 31 - 23th May, 2023]()
         Non-flat files
             pickle
             shelve
+
+
+### [Class 32 - 24th May, 2023]()
             xml
             csv
             dat
 
-class 31
+### NEXT CLASS
 
             xls/xlsx
             json
