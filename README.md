@@ -221,7 +221,7 @@ Python Source code for Data Engineering related
 ### [Class 30 - 20th May, 2023]()
 
     11.File Operations
-        flat files
+        flat/unstructure files
 
 ### NEXT CLASS
 
