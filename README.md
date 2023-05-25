@@ -218,27 +218,30 @@ Python Source code for Data Engineering related
         creating user-defined package
         Uploading package to PyPi repository
 
-### [Class 30 - 22nd May, 2023]()
-
+### [Class 30 - 22nd May, 2023](https://youtu.be/66X9fHwv4XI)
     11.File Operations
         flat/unstructure files
 
-### [Class 31 - 23th May, 2023]()
+### [Class 31 - 23th May, 2023](https://youtu.be/OPqoGFDKgaw)
         Non-flat files
             pickle
             shelve
 
 
-### [Class 32 - 24th May, 2023]()
+### [Class 32 - 24th May, 2023](https://youtu.be/SJ1KnicTQHQ)
             xml
-            csv
-            dat
 
-### NEXT CLASS
-
+### [Class 33 - 25th May, 2023]()
+            csv, tsv, ssv, psv, dat, dsv
             xls/xlsx
             json
             yaml
+            toml
+
+### NEXT CLASS
+
+class 34
+
             parquet
             avro
         Image files
@@ -248,7 +251,6 @@ Python Source code for Data Engineering related
         config files : .ini, .cfg
         pyw files
 
-class 32
 
     12.Logging
         Simple logging
