@@ -231,17 +231,14 @@ Python Source code for Data Engineering related
 ### [Class 32 - 24th May, 2023](https://youtu.be/SJ1KnicTQHQ)
             xml
 
-### [Class 33 - 25th May, 2023]()
+### [Class 33 - 25th May, 2023](https://youtu.be/SJ1KnicTQHQ)
             csv, tsv, ssv, psv, dat, dsv
             xls/xlsx
             json
             yaml
             toml
 
-### NEXT CLASS
-
-class 34
-
+### [Class 34 - 26th May, 2023]()
             parquet
             avro
         Image files
@@ -251,6 +248,7 @@ class 34
         config files : .ini, .cfg
         pyw files
 
+### NEXT CLASS
 
     12.Logging
         Simple logging
