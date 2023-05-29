@@ -238,17 +238,15 @@ Python Source code for Data Engineering related
             yaml
             toml
 
-### [Class 34 - 26th May, 2023]()
-            parquet
-            avro
+### [Class 34 - 26th May, 2023](https://youtu.be/bCqGWUDqvmU)
         Image files
             displaying, creating and editing images
+        Audio and Video Processing
         zipping files: .zip, .tar
-        pdf files
         config files : .ini, .cfg
-        pyw files
 
-### NEXT CLASS
+### [Class 35 - 27th May, 2023]()
+        config files : .ini, .cfg
 
     12.Logging
         Simple logging
@@ -259,18 +257,18 @@ Python Source code for Data Engineering related
         color logging
         Rotating logger
 
-class 33
+### [Class 36 - 29th May, 2023]()
 
     13. OOP
         Importance of OOP
         Instantiation and managing attributes
         constructor and Importance of self
         instance and class variables
+
+### NEXT CLASS
+
         Encapsulation
         MRO, Single and multiple inheritance, composition
-
-class 34
-
         Method Overwriting, Operator Overloading
         instance, class and static methods
         property decorator
@@ -279,14 +277,14 @@ class 34
         creating context manager class
         Dataclasses
 
-class 35
+class 38
 
     14. Code Quality
         typing
         Doctest
         unittest
 
-class 36
+class 38
 
     15. Regular Expressions
         re module
@@ -296,53 +294,53 @@ class 36
         regex Flags
         Greedy & Non-Greedy patterns
 
-class 37
+class 39
 
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
 
-class 38
+class 40
 
     17. Web Services
         consuming REST API
         scraping web pages
 
-class 39
+class 41
 
         creating web applications
             using flask
             using Django
 
-class 40
+class 42
 
     18. Data Science: Data Processing and Transformations
         statistics
         Numpy
 
-class 41
+class 43
 
         Pandas
 
-class 42
-
+class 44
+        parquet & avro file formats
         PySpark
         Matplotlib        
         Introducing Platforms - Google Collab, Kaggle
 
-class 43
+class 45
 
         EDA - Exploratory Data Analysis
 
-class 44
+class 46
 
     17. Development with AWS Cloud
         AWS cloud Importance & Introduction
         AWS IAM - creating roles, generating secrets
         EC2 instance
 
-class 45
+class 47
 
         AWS Lambda - time, event and http triggers
         boto3
