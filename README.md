@@ -257,7 +257,7 @@ Python Source code for Data Engineering related
         color logging
         Rotating logger
 
-### [Class 36 - 29th May, 2023]()
+### [Class 36 - 29th May, 2023](https://youtu.be/S7Vj6k5Hz8o)
 
     13. OOP
         Importance of OOP
@@ -265,11 +265,14 @@ Python Source code for Data Engineering related
         constructor and Importance of self
         instance and class variables
 
-### NEXT CLASS
+
+### [Class 37 - 30th May, 2023]()
 
         Encapsulation
         MRO, Single and multiple inheritance, composition
         Method Overwriting, Operator Overloading
+
+### NEXT CLASS
         instance, class and static methods
         property decorator
         Dunder(magic) methods
@@ -277,14 +280,14 @@ Python Source code for Data Engineering related
         creating context manager class
         Dataclasses
 
-class 38
+class 39
 
     14. Code Quality
         typing
         Doctest
         unittest
 
-class 38
+class 40
 
     15. Regular Expressions
         re module
@@ -294,53 +297,54 @@ class 38
         regex Flags
         Greedy & Non-Greedy patterns
 
-class 39
+class 41
 
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
 
-class 40
+class 42
 
     17. Web Services
         consuming REST API
         scraping web pages
 
-class 41
+class 43
 
         creating web applications
             using flask
             using Django
 
-class 42
+class 44
 
     18. Data Science: Data Processing and Transformations
         statistics
         Numpy
 
-class 43
+class 45
 
         Pandas
 
-class 44
+class 45
+
         parquet & avro file formats
         PySpark
         Matplotlib        
         Introducing Platforms - Google Collab, Kaggle
 
-class 45
+class 46
 
         EDA - Exploratory Data Analysis
 
-class 46
+class 47
 
     17. Development with AWS Cloud
         AWS cloud Importance & Introduction
         AWS IAM - creating roles, generating secrets
         EC2 instance
 
-class 47
+class 48
 
         AWS Lambda - time, event and http triggers
         boto3
