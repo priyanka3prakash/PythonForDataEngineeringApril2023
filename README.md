@@ -272,15 +272,16 @@ Python Source code for Data Engineering related
         MRO, Single and multiple inheritance, composition
         Method Overwriting, Operator Overloading
 
-### NEXT CLASS
+### [Class 38 - 31th May, 2023]()
         instance, class and static methods
         property decorator
         Dunder(magic) methods
         reprlib module
         creating context manager class
         Dataclasses
+        Abstract Classes
 
-class 39
+### NEXT CLASS
 
     14. Code Quality
         typing
