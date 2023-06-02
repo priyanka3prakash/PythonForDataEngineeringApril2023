@@ -266,13 +266,13 @@ Python Source code for Data Engineering related
         instance and class variables
 
 
-### [Class 37 - 30th May, 2023]()
+### [Class 37 - 30th May, 2023](https://youtu.be/Dx2hrdMxV7w)
 
         Encapsulation
         MRO, Single and multiple inheritance, composition
         Method Overwriting, Operator Overloading
 
-### [Class 38 - 31th May, 2023]()
+### [Class 38 - 31th May, 2023](https://youtu.be/Fu-YzUkMVUc)
         instance, class and static methods
         property decorator
         Dunder(magic) methods
@@ -281,22 +281,22 @@ Python Source code for Data Engineering related
         Dataclasses
         Abstract Classes
 
-### NEXT CLASS
-
-    14. Code Quality
-        typing
-        Doctest
-        unittest
-
-class 40
+### [Class 39 - 02nd Jun, 2023]()
 
     15. Regular Expressions
         re module
         compiling regex objects
         match & search
-        find & finditer
         regex Flags
         Greedy & Non-Greedy patterns
+
+### NEXT CLASS
+        find & finditer
+
+    14. Code Quality
+        typing
+        Doctest
+        unittest
 
 class 41
 
