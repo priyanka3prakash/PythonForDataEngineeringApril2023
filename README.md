@@ -281,7 +281,7 @@ Python Source code for Data Engineering related
         Dataclasses
         Abstract Classes
 
-### [Class 39 - 02nd Jun, 2023]()
+### [Class 39 - 02nd Jun, 2023](https://youtu.be/xfnPjXAT3vE)
 
     15. Regular Expressions
         re module
@@ -290,10 +290,20 @@ Python Source code for Data Engineering related
         regex Flags
         Greedy & Non-Greedy patterns
 
+### [Class 40 - 03rd Jun, 2023](https://youtu.be/kyFkgWRXADk)
+
+        Greedy & Non-Greedy patterns
+        findall & finditer
+        sub and subn
+        regex Flags
+        groups and groupdicts
+        Pearl-style regexes
+        Realworld Problem (log analyses, email Validation, etc)
+
 ### NEXT CLASS
-        find & finditer
 
     14. Code Quality
+        static code analyses
         typing
         Doctest
         unittest
