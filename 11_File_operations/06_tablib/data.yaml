@@ -1,0 +1,5 @@
+- {Age: 25, FirstName: Gudo, Grade: 0.86, Nationality: USA, occupation: Engineer,
+  row_comb: Gudo|25|USA|Engineer|0.86}
+- {Age: 30, FirstName: Jane, Grade: 0.73, Nationality: Canada, occupation: Doctor,
+  row_comb: Jane|30|Canada|Doctor|0.73}
+- {Age: 35, FirstName: Mike, Grade: 0.71, Nationality: UK, occupation: Lawyer, row_comb: Mike|35|UK|Lawyer|0.71}
