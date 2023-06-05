@@ -338,6 +338,7 @@ Python Source code for Data Engineering related
 
     14. Code Quality
         static code analyses
+        Code Analyses using inspect, cProfiler, objgraph
         typing
         Doctest
         unittest
