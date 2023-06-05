@@ -1,6 +1,6 @@
-
 def add(a, b):
     return a + b
+
 
 def div(n1, n2):
     return n1 / n2

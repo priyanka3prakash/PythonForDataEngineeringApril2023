@@ -1,2 +1,2 @@
-class H(object):
+class H:
     pass

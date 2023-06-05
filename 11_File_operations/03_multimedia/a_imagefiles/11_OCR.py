@@ -4,7 +4,6 @@ Purpose: OCR from image
     pip install pytesseract
 """
 import pytesseract
-
 from PIL import Image
 
 # print(dir(pytesseract))

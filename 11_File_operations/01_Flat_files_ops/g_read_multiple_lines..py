@@ -5,7 +5,7 @@ Purpose: file read operations
     fh.readline()
     fh.readlines()
 """
-fh = open("e_write_multiple_lines.upp", "r")
+fh = open("e_write_multiple_lines.upp")
 
 
 partial_content = fh.read(7)

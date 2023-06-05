@@ -43,8 +43,8 @@ result = re.search("^.....$", "udhay", re.I)
 print(f"result:{result}")
 
 # To get the target string with 5 characters only
-result = re.search("\A.....\Z", "udhay", re.I)
-print(f"result:{result}")  
+result = re.search(r"\A.....\Z", "udhay", re.I)
+print(f"result:{result}")
 print()
 
 # To get the target string with 5 characters only
@@ -52,5 +52,5 @@ result = re.search("^.....$", "udhaya", re.I)
 print(f"result:{result}")  # None
 
 # To get the target string with 5 characters only
-result = re.search("\A.....\Z", "udhaya", re.I)
+result = re.search(r"\A.....\Z", "udhaya", re.I)
 print(f"result:{result}")  # None

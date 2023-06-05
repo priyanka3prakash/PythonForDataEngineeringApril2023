@@ -17,5 +17,5 @@ pat = re.compile(r"(?P<word>\S*) (\s+(?P=word))", re.MULTILINE)
 print(pat.findall(text))
 print(pat.search(text).group())
 
-result = pat.sub("\g<word>", text)
+result = pat.sub(r"\g<word>", text)
 print(result)

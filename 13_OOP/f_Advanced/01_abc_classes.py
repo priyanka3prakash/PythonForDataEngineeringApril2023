@@ -6,15 +6,15 @@ Purpose: Abstract Classes
     - Abstract classes cannot be instantiated, and require subclasses
       to provide implementations for the abstract methods.
 
-webScrapping 
+webScrapping
     - tesla
-    MSFT 
+    MSFT
 
 
     fotowebsite
     getwebpage
     getpdfs
-    extract the content 
+    extract the content
     dumptodb
 """
 from abc import ABC, abstractmethod
@@ -29,7 +29,6 @@ class OrdinaryClass:
 o1 = OrdinaryClass()
 print(vars(o1))  # {}
 print()
-
 
 
 # Ordinary classes 2
@@ -83,7 +82,6 @@ print(a2)
 print()
 
 
-
 # Abstract Class 3
 class AbstractClassExample3(ABC):
     def __init__(self, value) -> None:
@@ -99,7 +97,6 @@ a3 = AbstractClassExample3("Python")
 print(a3)
 a3.say_hello()
 print()
-
 
 
 # Abstract Class 4
@@ -136,7 +133,6 @@ class BasicCar(ABC):
         pass
 
 
-
 # Problem
 class RolsRoys(BasicCar):
     pass
@@ -149,7 +145,6 @@ except TypeError as ex:
     print("Excepting methods marked as abstractmethods need to be IMPLEMENTED")
 
 
-
 # Solution
 class RolsRoys(BasicCar):
     def get_chasis_number(self):
@@ -157,4 +152,3 @@ class RolsRoys(BasicCar):
 
 
 car_r = RolsRoys()
-

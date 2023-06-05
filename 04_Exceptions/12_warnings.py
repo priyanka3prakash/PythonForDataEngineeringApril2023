@@ -12,7 +12,7 @@ print()
 
 warnings.warn("This is not good practice 1")
 
-#Adding filter to display on specific warnings
+# Adding filter to display on specific warnings
 warnings.filterwarnings(
     "ignore",
     ".*do not.*",

@@ -6,7 +6,7 @@ import getpass
 user_name = getpass.getuser()
 
 # pass_word = input('Enter password :')
-pass_word = getpass.getpass('Enter password :')
+pass_word = getpass.getpass("Enter password :")
 
 print(
     f"""

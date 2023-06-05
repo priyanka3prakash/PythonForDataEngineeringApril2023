@@ -9,7 +9,7 @@ from pprint import pprint
 # Method 1: creating class & instance ordinarily
 
 
-class NewType(object):
+class NewType:
     x = "hello"
 
 

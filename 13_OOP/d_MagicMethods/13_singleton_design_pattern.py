@@ -6,7 +6,7 @@ Purpose: To create a class with singleton design pattern
 """
 
 
-class SingletonClass(object):
+class SingletonClass:
     __singleton = None
 
     def __new__(cls, *args, **kwargs):

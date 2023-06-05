@@ -1,8 +1,10 @@
 """
 Purpose: Imutable values
 """
-import logging 
+import logging
+
 logging.basicConfig(level=logging.DEBUG)
+
 
 class MyClass:
     def __init__(self, getter_func):
@@ -25,12 +27,14 @@ class MyClass:
 
         self.setter_func(obj, value)
 
+
 def hello():
     return "Hello world"
+
 
 val1 = MyClass(hello)
 
 print(f"{val1.getter_func =}")
 
 
-#__get__ and __getattr__
+# __get__ and __getattr__

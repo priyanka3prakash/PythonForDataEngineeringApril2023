@@ -8,10 +8,11 @@ NOTE: All the instance variables must be created in constructor - PEP 8
 """
 from pprint import pp
 
+
 class A:
     def __init__(self):
         print("A - Base Class Contructor")
-        super(A, self).__init__()
+        super().__init__()
         print("<A>")
         self.x = 10
         self._x = 10
@@ -21,12 +22,11 @@ class A:
 class B:
     def __init__(self):
         print("B - Other Base class Constructor")
-        super(B, self).__init__()
+        super().__init__()
         print("<B>")
         self.y = 20
         self._y = 20
         self.__y = 20
-
 
 
 class C(A, B):
@@ -52,17 +52,17 @@ print(C.__mro__)
 pp(vars(c_instance))
 
 
-{'y': 20,
- '_y': 20,
- '_B__y': 20,
-
- 'x': 10,
- '_x': 10,
- '_A__x': 10,
-
- 'z': 30,
- '_z': 30,
- '_C__z': 30}
+{
+    "y": 20,
+    "_y": 20,
+    "_B__y": 20,
+    "x": 10,
+    "_x": 10,
+    "_A__x": 10,
+    "z": 30,
+    "_z": 30,
+    "_C__z": 30,
+}
 
 
 """

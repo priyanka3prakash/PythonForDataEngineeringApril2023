@@ -13,7 +13,6 @@
 # # pp(locals())
 
 
-
 # def myfunc():
 #     num1 = 200
 #     num2 = 300
@@ -33,13 +32,8 @@
 # pp(locals())
 
 
-
-
 assert globals() == locals()
-
 
 
 def myfunc():
     assert globals() != locals()
-
-

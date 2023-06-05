@@ -31,4 +31,3 @@ def remove_worksheets(path):
 if __name__ == "__main__":
     remove_worksheets("d_remove_sheets.xlsx")
     create_worksheets("c_delete_sheets.xlsx")
-

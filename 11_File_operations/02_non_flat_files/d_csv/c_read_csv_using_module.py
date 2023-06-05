@@ -11,7 +11,7 @@ import csv
 #     print(each_attribute)
 
 
-with open("first.csv", mode="r") as fh:
+with open("first.csv") as fh:
     # fh.read()
     file_Content = csv.reader(fh, delimiter=",")
     # print(file_Content)

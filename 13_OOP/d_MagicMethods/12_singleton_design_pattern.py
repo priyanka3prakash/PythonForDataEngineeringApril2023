@@ -27,17 +27,15 @@ except Exception as ex:
     print(ex)
 
 
-
-
 # Question: __new__ vs __init__
 # baby born   => __new__
 # baby named  => __init__
 
 
-class Logger(object):
+class Logger:
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, "_logger"):
-            cls._logger = super(Logger, cls).__new__(cls, *args, **kwargs)
+            cls._logger = super().__new__(cls, *args, **kwargs)
         return cls._logger
 
 

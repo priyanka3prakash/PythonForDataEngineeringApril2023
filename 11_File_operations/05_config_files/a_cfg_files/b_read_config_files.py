@@ -1,12 +1,10 @@
 import configparser
 
-
 config = configparser.RawConfigParser()
 config.read("example.cfg")
 
 # print(config)
 # print(dir(config))
-
 
 
 # getfloat() raises an exception if the value is not a float

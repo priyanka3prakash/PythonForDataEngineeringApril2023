@@ -13,7 +13,7 @@ sentence = "Today is good day"
 # print(type(result))
 
 encoded = base64.b64encode(sentence.encode("utf-8"))
-print(f"encoded     : {encoded}")   #  b'VG9kYXkgaXMgZ29vZCBkYXk='
+print(f"encoded     : {encoded}")  #  b'VG9kYXkgaXMgZ29vZCBkYXk='
 
 original_msg = base64.b64decode(encoded)
 print(f"original_msg: {original_msg}")  #  b'Today is good day'

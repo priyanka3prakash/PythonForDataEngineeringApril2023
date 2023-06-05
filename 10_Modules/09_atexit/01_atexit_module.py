@@ -9,6 +9,7 @@ import atexit
 def hello():
     print("Hello world")
 
+
 def add(n1, n2):
     print("add - function")
     return n1 + n2

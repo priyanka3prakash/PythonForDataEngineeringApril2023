@@ -5,7 +5,6 @@ Purpose: Writing csv using csv module
 """
 import csv
 
-
 with open("third.csv", mode="w") as fh:
     header_names = ("sno", "name", "age", "designation")
 
@@ -17,11 +16,11 @@ with open("third.csv", mode="w") as fh:
     writer.writerow([1, "akhila", 11, "carpenter"])
 
     # To write multiple records
-    writer.writerows([
-        [2, "neha", 13, "business"],
-        [3, "hiral", 12, "software"], 
-        [4, "", 12, "software"], 
-        [5, "", 0, "software"], 
-        ])
-
-
+    writer.writerows(
+        [
+            [2, "neha", 13, "business"],
+            [3, "hiral", 12, "software"],
+            [4, "", 12, "software"],
+            [5, "", 0, "software"],
+        ]
+    )

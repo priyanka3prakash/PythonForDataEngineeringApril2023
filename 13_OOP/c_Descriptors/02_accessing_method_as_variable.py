@@ -23,7 +23,7 @@ class Person:
         # return (self.first + " " + self.last).upper()
         return self.full_name.upper()
 
-    
+
 person1 = Person("Udhay", "Prakash")
 
 print(f"person1.first      :{person1.first}")

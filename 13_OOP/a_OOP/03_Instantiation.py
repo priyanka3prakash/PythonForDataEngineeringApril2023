@@ -9,7 +9,7 @@ class MyClassName:
 
     def hello_world(self):  # methods
         return "Hello world"
-    
+
 
 # Instantiation
 c1 = MyClassName()
@@ -55,7 +55,7 @@ delattr(c1, "number4")
 # print(f"{c1.number4 =}")  # AttributeError
 
 """
-NOTE: Both delattr and del can delete any attribute, except onces 
+NOTE: Both delattr and del can delete any attribute, except onces
 defined in class definition
 
 """
@@ -73,6 +73,7 @@ assert c1.hello_world() == MyClassName.hello_world(c1)
 
 class EmptyClass:
     pass
+
 
 e1 = EmptyClass()
 

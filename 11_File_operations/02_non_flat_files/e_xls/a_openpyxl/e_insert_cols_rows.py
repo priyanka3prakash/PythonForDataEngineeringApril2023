@@ -12,7 +12,7 @@ def inserting_cols_rows(path):
 
     # insert a column before A
     sheet.insert_cols(idx=1)
-    
+
     # insert 2 rows starting on the second row
     sheet.insert_rows(idx=2, amount=2)
 

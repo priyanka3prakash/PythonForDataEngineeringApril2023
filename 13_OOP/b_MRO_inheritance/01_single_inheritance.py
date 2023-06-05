@@ -9,6 +9,8 @@ constructors
     MRO - method resolution order
 
 """
+
+
 class Account:
     """
     Parent or super class
@@ -40,12 +42,12 @@ class MinimumBalanceAccount(Account):
         # calling the constructor of the parent class
         Account.__init__(self)
 
-
     def withdraw(self, amount):
         if self.balance - amount < 100:
             print("Please maintain minimum balance. transaction failed!!!")
         else:
             Account.withdraw(self, amount)
+
 
 a2 = MinimumBalanceAccount()
 print(vars(a2))  # {'balance': 0}

@@ -13,7 +13,6 @@ Purpose: Creating custom iterator class using
 # print()
 
 
-
 class PowTwo:
     """Class to implement an iterator
     of powers of two"""
@@ -32,7 +31,7 @@ class PowTwo:
             return result
         else:
             raise StopIteration
-        
+
 
 if __name__ == "__main__":
     output = PowTwo(4)

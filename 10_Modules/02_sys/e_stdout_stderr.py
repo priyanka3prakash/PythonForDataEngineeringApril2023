@@ -18,6 +18,6 @@ print("Hello world", end="\n")
 
 
 sys.stderr.write("Hello world Error\n")
-raise ValueError('wrong error')
+raise ValueError("wrong error")
 
 # sys.stdin.read() is similar to input()

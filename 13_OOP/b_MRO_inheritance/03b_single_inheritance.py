@@ -15,11 +15,11 @@ class Base:
 
 
 b = Base()
-b.display()        # self.__x =1 self._y =2 self.z = 3
+b.display()  # self.__x =1 self._y =2 self.z = 3
 # print(dir(b))
 
 print("b.z", b.z)  # Public
-print("b._y", b._y) # prtet
+print("b._y", b._y)  # prtet
 print("b._Base__x", b._Base__x)
 
 
@@ -31,8 +31,9 @@ class Derived(Base):
         self._y = 5
         self.z = 6
 
+
 d = Derived()
-d.display()    # self.__x =1 self._y =5 self.z = 6
+d.display()  # self.__x =1 self._y =5 self.z = 6
 
 
 """

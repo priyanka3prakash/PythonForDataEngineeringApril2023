@@ -2,12 +2,13 @@
 pip install pillow
 """
 
-# import PIL 
+# import PIL
 
 # print(PIL)
 # print(dir(PIL))
 
 import os
+
 from PIL import Image, ImageDraw
 
 os.makedirs("images", exist_ok=True)

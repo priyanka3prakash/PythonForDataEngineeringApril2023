@@ -18,6 +18,5 @@ def create_worksheets(path):
     workbook.save(path)
 
 
-
 if __name__ == "__main__":
     create_worksheets("b_creating_sheets.xlsx")

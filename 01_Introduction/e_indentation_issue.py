@@ -13,7 +13,7 @@ print("hello world3!")
 # IndentationError: expected an indented block after 'if' statement on line 11
 
 if 12 > 3:
-    print('12 is greater than 3')
+    print("12 is greater than 3")
 
 
 if 12 > 34:
@@ -28,7 +28,6 @@ elif 2 > 1:
     print("case 2")
 else:
     print("case 3")
-
 
 
 if 1 < 2:

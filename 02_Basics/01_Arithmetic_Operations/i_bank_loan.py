@@ -16,5 +16,3 @@ Ref :https://www.calculatorsoup.com/calculators/financial/simple-interest-plus-p
 #     ref: https://www.calculatorsoup.com/calculators/financial/compound-interest-calculator.php
 
 """
-
-

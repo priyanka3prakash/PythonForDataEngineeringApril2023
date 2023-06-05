@@ -25,13 +25,12 @@ if __name__ == "__main__":
     shurti = Account("shruti")
     print(vars(shurti))
     print("Initially", shurti.display_balance())
-    
+
     shurti.deposit(1000)
     print("After Deposit", shurti.display_balance())
 
     shurti.withdrawl(400)
     print("After withdrawl", shurti.display_balance())
-
 
     print("----------------------------")
     semona = Account("semona")

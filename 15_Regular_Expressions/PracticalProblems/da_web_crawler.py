@@ -4,7 +4,7 @@ import requests
 
 # get url
 # url = input("Enter a URL (include `http://`): ")
-url = 'https://stackoverflow.com'
+url = "https://stackoverflow.com"
 # connect to the url
 website = requests.get(url)
 

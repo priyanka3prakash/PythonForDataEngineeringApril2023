@@ -5,7 +5,6 @@ Purpose: timeit module
 import time
 import timeit
 
-
 LOGIC = '"-".join(str(n) for n in range(10))'
 
 start_time = time.perf_counter_ns()

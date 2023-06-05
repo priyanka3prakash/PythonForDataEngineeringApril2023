@@ -3,6 +3,7 @@ Purpose: __slots__ importance
     pip install pympler --user
 """
 import sys
+
 from pympler.asizeof import asizeof
 
 
@@ -14,6 +15,7 @@ class OrdinaryClass:
     def __init__(self):
         self.foo = None
         self.bar = None
+
 
 o = OrdinaryClass()
 print(vars(o))
@@ -41,6 +43,7 @@ class SlottedClass:
         # self.something = None
         # # AttributeError: 'SlottedClass' object has no attribute 'something'
 
+
 print()
 c = SlottedClass()
 # print(vars(c))
@@ -65,7 +68,7 @@ print(f"{sys.getsizeof(o) =}")
 print(f"{sys.getsizeof(c) =}")
 
 # pympler.asizeof can be used to investigate how much memory
-# certain Python objects consume. 
+# certain Python objects consume.
 # In contrast to sys.getsizeof, asizeof sizes objects recursively.
 
 print(f"{asizeof(o) =}")

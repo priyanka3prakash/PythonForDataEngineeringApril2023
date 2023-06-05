@@ -18,17 +18,20 @@ Purpose: without OOPS, solving a problem
 """
 balance = 0
 
+
 def deposit(amount):
     global balance
     print(f"\tDeposited {amount}")
     balance = balance + amount
     return balance
 
+
 def withdrawl(amount):
     global balance
     print(f"\tWithdrawn {amount}")
     balance = balance - amount
     return balance
+
 
 if __name__ == "__main__":
     # Sudha

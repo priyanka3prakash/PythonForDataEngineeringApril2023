@@ -4,7 +4,7 @@ Purpose: Reading(Parsing) csv using pandas module
     pip install -U pandas --user
 """
 
-import pandas  as pd
+import pandas as pd
 
 # print(dir(pd))
 

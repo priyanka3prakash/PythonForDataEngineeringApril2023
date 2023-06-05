@@ -19,7 +19,7 @@ def singleton(myClass):
 
 
 @singleton
-class TestClass(object):
+class TestClass:
     pass
 
 

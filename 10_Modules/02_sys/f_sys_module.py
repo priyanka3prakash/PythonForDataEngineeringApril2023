@@ -5,7 +5,6 @@ Purpose: sys module
 import sys
 from pprint import pprint
 
-
 print(
     f"""
     {sys.audit                      =}

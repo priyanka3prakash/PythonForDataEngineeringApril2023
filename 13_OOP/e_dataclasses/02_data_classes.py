@@ -9,7 +9,7 @@ from dataclasses import dataclass
 
 
 @dataclass()
-class Foo(object):
+class Foo:
     x: int
 
 
@@ -30,7 +30,7 @@ print("\nWith FROZEN =============")
 
 
 @dataclass(frozen=True)
-class Foo2(object):
+class Foo2:
     x: int
 
 

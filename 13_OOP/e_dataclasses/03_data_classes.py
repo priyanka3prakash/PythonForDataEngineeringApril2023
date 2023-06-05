@@ -6,7 +6,7 @@ from dataclasses import asdict, astuple, dataclass
 
 
 @dataclass
-class Book(object):
+class Book:
     title: str
     author: str
     price: float = 20  # default value

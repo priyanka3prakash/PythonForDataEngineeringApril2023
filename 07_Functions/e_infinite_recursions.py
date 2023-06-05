@@ -3,12 +3,12 @@ def display(name):
     return display(name)
 
 
-
 # display("Python")
 # RecursionError: maximum recursion depth exceeded while calling a Python object
 
 
 import sys
+
 # To get the stack depth - platform dependent
 print(f"{sys.getrecursionlimit() =}")
 
@@ -19,7 +19,6 @@ print(f"{sys.getrecursionlimit() =}")
 # sys.setrecursionlimit(1500)
 
 # print(f"{sys.getrecursionlimit() =}")  # 1500
-
 
 
 def loop(no_of_recursions):
@@ -51,7 +50,6 @@ def func2():
 
 
 # func1()
-
 
 
 try:

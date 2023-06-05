@@ -40,7 +40,6 @@ with gzip.open("zen.txt.gz", "rb") as f:
     fp.close()
 
 
-
 # ----------------
 f = gzip.GzipFile("testnew.txt.gz", "wb")
 data = b"Python - Batteries included"

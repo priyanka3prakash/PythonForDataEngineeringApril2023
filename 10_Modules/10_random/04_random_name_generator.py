@@ -6,7 +6,7 @@ def random_name_generator(first, second, count):
     for _ in range(count):
         fst_name = random.choice(first)
         lst_name = random.choice(second)
-        name  = f"{fst_name} {lst_name}"
+        name = f"{fst_name} {lst_name}"
         _names.append(name)
     return _names
 
@@ -16,10 +16,9 @@ def random_name_generator(first, second, count):
     while len(_names) < count:
         fst_name = random.choice(first)
         lst_name = random.choice(second)
-        name  = f"{fst_name} {lst_name}"
+        name = f"{fst_name} {lst_name}"
         _names.add(name)
     return _names
-
 
 
 first_names = ["Drew", "Mike", "Landon", "Jeremy", "Tyler", "Tom", "Avery"]

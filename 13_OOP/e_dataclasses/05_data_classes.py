@@ -3,7 +3,7 @@ from typing import Any, List
 
 
 @dataclass(init=True, repr=True, eq=True, order=True, unsafe_hash=False, frozen=False)
-class Book(object):
+class Book:
     title: str
     author: str
 

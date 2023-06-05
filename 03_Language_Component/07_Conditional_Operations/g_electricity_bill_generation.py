@@ -37,11 +37,11 @@ if units_consumed > 250:
     slab_units = remaining_units - 250
     amount += slab_units * 10.0
     print(
-            f"""
+        f"""
             units consumed  : {remaining_units}
             slab units      : {slab_units}
         """
-        )
+    )
     remaining_units -= slab_units
 
 if 150 < remaining_units <= 250:

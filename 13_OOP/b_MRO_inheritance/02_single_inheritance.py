@@ -40,7 +40,6 @@ class Bmw(Cars):
         print("I am Bmw class")
 
 
-
 class Volvo(Cars):
     def __init__(self, name, chs, eng, auto_driving):
         Cars.__init__(self, name, chs, eng)
@@ -70,7 +69,6 @@ car2.Get_Engine()
 car2.Auto_Drive()
 car2.hello()
 print()
-
 
 
 # Method Resolution Order

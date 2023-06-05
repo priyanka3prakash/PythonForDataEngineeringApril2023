@@ -1,5 +1,6 @@
 import sys
 
+
 def hello_world():
     print("Hello from Module1")
 
@@ -7,7 +8,9 @@ def hello_world():
 if __name__ == "__main__":
     hello_world()
 else:
-    print(f""" 
+    print(
+        f"""
         {__name__    =}
         {__package__ =}
-    """)
+    """
+    )

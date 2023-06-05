@@ -34,4 +34,3 @@ print("-----------")
 print(re.match(r"(..)*", "alb2cs").group(1))  # cs
 print(re.match(r"(..)+", "alb2cs").group(1))  # cs
 print(re.match(r"(..)?", "alb2cs").group(1))  # al
-

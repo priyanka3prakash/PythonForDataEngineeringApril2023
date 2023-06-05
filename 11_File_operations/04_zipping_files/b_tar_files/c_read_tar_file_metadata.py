@@ -25,5 +25,5 @@ for file_name in ("fileThree.txt", "tarFileOne.tar", "some.txt"):
                 print("\tType    :", info.type)
                 print("\tSize    :", info.size, "bytes")
 
-    except IOError as err:
+    except OSError as err:
         print(err)

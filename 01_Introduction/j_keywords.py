@@ -8,8 +8,9 @@ Purpose: Identifiers in Python
 
 """
 
+
 def wishes(name):
-    wish = "How are you {0}?".format(name)
+    wish = "How are you {}?".format(name)
     print(wish)
 
 
@@ -17,7 +18,7 @@ wishes("Udhay")
 
 
 def వందనాలు(పేరు):
-    వందనం = "మీరు ఎలా ఉన్నారు {0}?".format(పేరు)
+    వందనం = "మీరు ఎలా ఉన్నారు {}?".format(పేరు)
     print(వందనం)
 
 

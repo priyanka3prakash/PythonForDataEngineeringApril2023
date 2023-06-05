@@ -11,7 +11,7 @@ Purpose: Loops
 i = 0
 while i < 10:
     i += 1
-    print(i, end = ",")
+    print(i, end=",")
 print()
 
 print("\n importance of break")
@@ -20,7 +20,7 @@ while i < 10:
     i += 1
     if i == 5:
         break
-    print(i, end = ",")
+    print(i, end=",")
 print()
 
 print("\n importance of continue")
@@ -29,7 +29,7 @@ while i < 10:
     i += 1
     if i % 2 == 0:
         continue  # will skip next lines in curent loop
-    print(i, end = ",")
+    print(i, end=",")
 print()
 
 print("\n importance of pass")
@@ -38,21 +38,21 @@ while i < 10:
     i += 1
     if i % 2 == 0:
         pass  # It acts as a placeholder
-    print(i, end = ",")
+    print(i, end=",")
 print()
 
 
 print("\nimportance of sys.exit")
 import sys
+
 i = 0
 while i < 10:
     i += 1
     if i == 5:
         sys.exit(0)
-    print(i, end = ",")
+    print(i, end=",")
 
 
 # exit code 0 - successful/normal termination
 # exit code non-zero - abnormal termination
 print("next statement")
-

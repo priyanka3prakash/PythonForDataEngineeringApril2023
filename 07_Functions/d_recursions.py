@@ -2,6 +2,7 @@ def hello():
     print("Hello world")
     return hello()
 
+
 # hello()
 # RecursionError: maximum recursion depth exceeded while calling a Python object
 
@@ -14,8 +15,8 @@ def sum_of_list(num_list):
         total = total + num
     return total
 
-print(sum_of_list([12, 23, 34, 546, 1]))  # 616
 
+print(sum_of_list([12, 23, 34, 546, 1]))  # 616
 
 
 # Method 2 : implementation using recursions

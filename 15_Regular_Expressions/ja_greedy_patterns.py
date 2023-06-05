@@ -4,7 +4,7 @@ Purpose: Regular Expressions
 patterns
     *  previous character can occur 0 or more times
     +  previous character can occur 1 or more times
-    
+
     ?  previous character can occur 0 or 1 time only
 
 """
