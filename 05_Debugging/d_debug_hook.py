@@ -11,7 +11,9 @@ import sys
 
 def my_breakpoint_hook_function():
     print("Breakpoint got activated")
-    import ipdb;ipdb.set_trace()
+    import ipdb
+
+    ipdb.set_trace()
 
 
 sys.breakpointhook = my_breakpoint_hook_function

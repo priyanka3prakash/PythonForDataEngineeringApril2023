@@ -48,7 +48,6 @@ print(x)  # Vindhya
 print()
 
 
-
 # # To shuffle a list of elements
 # def shuffler(mylist):
 #     new_list = []

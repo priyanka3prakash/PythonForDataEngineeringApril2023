@@ -1,17 +1,17 @@
 __all__ = ["A", "B", "C"]
 
 
-class A(object):
+class A:
     pass
 
 
-class B(object):
+class B:
     pass
 
 
-class C(object):
+class C:
     pass
 
 
-class D(object):
+class D:
     pass

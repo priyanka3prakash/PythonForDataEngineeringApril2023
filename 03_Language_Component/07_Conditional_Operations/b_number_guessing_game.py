@@ -4,7 +4,7 @@ Purpose: Number Guessing Game
 """
 LUCKY_NUMBER = 69
 
-guessed_number = int( input("Enter a number, between 0 & 100 inclusive:"))
+guessed_number = int(input("Enter a number, between 0 & 100 inclusive:"))
 
 
 # print(f"{LUCKY_NUMBER                   =}")
@@ -25,7 +25,7 @@ guessed_number = int( input("Enter a number, between 0 & 100 inclusive:"))
 
 # Method 3 - with elif ladder
 if guessed_number == LUCKY_NUMBER:
-    print('YOU GUESSED CORRECTLY !!!')
+    print("YOU GUESSED CORRECTLY !!!")
 elif guessed_number > LUCKY_NUMBER:  # 78 > 69
     print("Please Try Again with reducing your guess number")
 elif guessed_number < LUCKY_NUMBER:  # 34 < 69

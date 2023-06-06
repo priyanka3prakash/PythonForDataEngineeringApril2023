@@ -5,9 +5,10 @@ Purpose: dotenv module
     pip install -U python-dotenv --user
 
 """
-import os 
-import dotenv
+import os
 from pathlib import Path
+
+import dotenv
 
 # print(os.environ["AWS_CLOUD_ACCESS_KEY"])
 

@@ -3,8 +3,7 @@ Purpose: Reading(Parsing) CSV using csv module
 """
 import csv
 
-
-with open("first.csv", mode="r") as fh:
+with open("first.csv") as fh:
     # file_Content = csv.reader(fh, delimiter=",")
     file_Content = csv.DictReader(fh, delimiter=",")
 
@@ -16,7 +15,7 @@ with open("first.csv", mode="r") as fh:
 
     names = []
     for each_line in file_Content:
-        # print(each_line)  # dict 
+        # print(each_line)  # dict
         name = each_line["name"]
         names.append(name)
 

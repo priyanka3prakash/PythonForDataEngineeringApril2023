@@ -1,0 +1,84 @@
+# Pre-commit framework Configuration
+# See https://pre-commit.com for more information
+
+fail_fast: false
+exclude: ^14_Code_Quality/00_static_code_analyses/.*$
+
+repos:
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0-alpha.8-for-vscode
+    hooks:
+      - id: prettier
+
+  # - repo: https://github.com/asottile/pyupgrade
+  #   rev: v3.3.0
+  #   hooks:
+  #     - id: pyupgrade
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: [--profile=black] # , --check-only
+        description: Sort Python imports
+
+  # Some out-of-the-box hooks for pre-commit
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      #- id: check-added-large-files
+      - id: check-ast
+        exclude: 14_Code_Quality/00_static_code_analyses/c0_unformatted_with_errors.py
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-merge-conflict
+      - id: check-vcs-permalinks
+      - id: check-json
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+        args: [--allow-multiple-documents]
+      - id: debug-statements
+        exclude: 05_Debugging/.*
+      - id: detect-aws-credentials
+        args:
+          - --allow-missing-credentials
+      - id: detect-private-key
+      - id: destroyed-symlinks
+      - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: mixed-line-ending
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+        args:
+          - --markdown-linebreak-ext=md
+      #- id: check-shebang-scripts-are-executable
+
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+        language_version: python3
+      - id: black-jupyter
+        language_version: python3
+
+  # - repo: https://gitlab.com/pycqa/flake8
+  #   rev: 3.9.2
+  #   hooks:
+  #     - id: flake8
+  #       args: [--max-line-length=131, --statistics]
+  #       additional_dependencies: ["flake8-bugbear"]
+  #       description: Lint Python Files
+
+  # - repo: https://github.com/PyCQA/bandit
+  #   rev: 1.7.4
+  #   hooks:
+  #     - id: bandit
+  #       args: ["-ll"]
+  #       files: .py$
+
+  # - repo: https://github.com/pre-commit/mirrors-mypy
+  #   rev: v0.942
+  #   hooks:
+  #     - id: mypy

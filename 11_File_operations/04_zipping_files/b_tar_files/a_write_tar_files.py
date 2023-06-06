@@ -2,8 +2,8 @@
 Purpose: Working with tar files
 """
 
-import tarfile
 import os
+import tarfile
 
 os.makedirs("files", exist_ok=True)
 os.chdir("files")
@@ -12,7 +12,6 @@ os.chdir("files")
 open("fileOne.txt", "w").write("This is first line")
 open("fileTwo.txt", "w").write("This is second line")
 open("fileThree.txt", "w").write("This is third line")
-
 
 
 # Creating new archives

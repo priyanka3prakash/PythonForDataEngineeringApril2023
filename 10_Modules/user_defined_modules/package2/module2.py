@@ -1,5 +1,6 @@
 import os
 
+
 def hello_world():
     print("Hello from Module2")
 

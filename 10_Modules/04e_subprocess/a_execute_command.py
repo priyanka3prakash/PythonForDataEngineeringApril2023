@@ -1,5 +1,6 @@
-import os 
+import os
 import subprocess
+
 
 def run_a_command(cmd):
     result = os.system(cmd)

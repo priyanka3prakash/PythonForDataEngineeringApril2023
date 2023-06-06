@@ -10,15 +10,17 @@ pip install toml
 
 """
 
+from pprint import pp
+
 import toml
-from pprint import pp 
+
 # print(dir(toml))
 # print()
 
 
-with open("sample.toml", "r") as fh:
+with open("sample.toml") as fh:
     parsed_toml_dict = toml.load(fh)
-    
+
 # print(parsed_toml_dict)
 
 pp(parsed_toml_dict)

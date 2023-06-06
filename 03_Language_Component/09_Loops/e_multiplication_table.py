@@ -44,9 +44,8 @@ while first < MAX_TABLE:
         # F-strings
         # print(f'{first} * {second} = {first * second}')
         print(f"{first:2} * {second:2} = {first * second:3}")
-    
-    print("=" * 15)  # print("===============")
 
+    print("=" * 15)  # print("===============")
 
 
 """

@@ -41,24 +41,21 @@ Purpose: importance and usage of argparse
 import argparse
 
 parser = argparse.ArgumentParser(
-    description="Details to login to server", 
-    epilog="-----Please follow help doc ----"
-
+    description="Details to login to server", epilog="-----Please follow help doc ----"
 )
 # description: for the text that is shown before the help text
 # epilog: for the text shown after the help text
 
 
-parser.add_argument("-u", "--username", type=str, required=True,
-                    help="login user name")
-parser.add_argument("-p", "--password", type=str,
-                    help="login user password")
-parser.add_argument("-s", "--servername", type=str, default="photos.google.com",
-                    help="server name")
+parser.add_argument("-u", "--username", type=str, required=True, help="login user name")
+parser.add_argument("-p", "--password", type=str, help="login user password")
+parser.add_argument(
+    "-s", "--servername", type=str, default="photos.google.com", help="server name"
+)
 
 args = parser.parse_args()
 
-user_name= args.username
+user_name = args.username
 password = args.password
 server_name = args.servername
 

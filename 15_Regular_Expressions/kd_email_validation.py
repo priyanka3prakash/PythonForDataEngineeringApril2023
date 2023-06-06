@@ -6,12 +6,14 @@ Ex: email ids
 
 import re
 
-print(re.findall(
-    r"\S+@\S+", 
-    "This message from csev@umich.edu to cwen@iupui.edu is about a meeting @2PM"
-    ))
+print(
+    re.findall(
+        r"\S+@\S+",
+        "This message from csev@umich.edu to cwen@iupui.edu is about a meeting @2PM",
+    )
+)
 
-email_ids = """
+email_ids = r"""
 Edit the Expression & Text to see matches. Roll over matches or the expression for details. Und
 python@programm.com
 Sample text for testing:
@@ -28,12 +30,12 @@ mubeen.tom@hacker.com
 1%453&harini_new@in.com
 SUPPORT@microsoft.com
 """
-print(re.findall(  r"\S+@\S+",  email_ids))
+print(re.findall(r"\S+@\S+", email_ids))
 
 # print(re.findall(  "[a-z]+@[a-z]+\.[a-z]+",  email_ids))
 # print(re.findall(  "[a-z.]+@[a-z.]+\.[a-z]+",  email_ids))
 # print(re.findall(  "[a-z._]+@[a-z._]+\.[a-z_]+",  email_ids))
-print(re.findall(  "[a-zA-Z._]+@[a-zA-Z._]+\.[a-zA-Z_]+",  email_ids))
+print(re.findall(r"[a-zA-Z._]+@[a-zA-Z._]+\.[a-zA-Z_]+", email_ids))
 
 # Assignment:
 # 1. FInd all the valid Phone numbers in the given target string

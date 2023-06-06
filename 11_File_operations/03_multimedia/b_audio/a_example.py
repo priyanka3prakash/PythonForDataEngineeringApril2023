@@ -1,5 +1,5 @@
-from scipy.io.wavfile import write
 import numpy as np
+from scipy.io.wavfile import write
 
 # Sample rate (number of samples per second)
 sample_rate = 44100
@@ -18,7 +18,7 @@ audio = np.sin(2 * np.pi * frequency * t)
 audio = (audio * 32767).astype(np.int16)
 
 # Write the audio data to a WAV file
-write('example.wav', sample_rate, audio)
+write("example.wav", sample_rate, audio)
 
 
 # assignment: apply all trigonometric functions of ths audio and generate .wav files

@@ -18,12 +18,10 @@ def multiplication(m1, m2, m3):
 
 
 # Step 1: created parser object
-parser = argparse.ArgumentParser(
-    description="Script to add two/three numbers"
-)
+parser = argparse.ArgumentParser(description="Script to add two/three numbers")
 
 # Step 2: add arguments to parser object
-parser.add_argument("-num1", help="First value", type=int,default=0)
+parser.add_argument("-num1", help="First value", type=int, default=0)
 parser.add_argument("-num2", help="Second Value", type=int, default=0)
 parser.add_argument("-num3", help="optonal value", type=float, default=0.0)
 

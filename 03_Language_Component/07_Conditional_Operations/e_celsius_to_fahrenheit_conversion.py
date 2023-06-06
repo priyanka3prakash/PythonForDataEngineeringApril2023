@@ -31,7 +31,8 @@ print(
 """
 )
 
-import math 
+import math
+
 farhenheit = math.pi
 
 for i in range(0, 9, 1):

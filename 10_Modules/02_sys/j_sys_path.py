@@ -7,7 +7,7 @@ Purpose: sys.path
 
 """
 
-import sys 
+import sys
 
 # print(sys.path) # gives a list of paths
 
@@ -20,7 +20,6 @@ for each_path in sys.path:
 # /usr/local/python/3.10.4/lib/python3.10/lib-dynload
 # /home/codespace/.local/lib/python3.10/site-packages
 # /usr/local/python/3.10.4/lib/python3.10/site-packages
-
 
 
 # NOTE: Installed modules are stored in "site-packages"
@@ -37,6 +36,7 @@ for each_path in sys.path:
 
 # Case 1 - importing script from current directory
 import j_calculator
+
 print(dir(j_calculator))
 
 print(f"{j_calculator.add(2, 3) =}")
@@ -45,6 +45,7 @@ print(f"{j_calculator.sub(2, 3) =}")
 
 # Case 1.1 - selective import
 from j_calculator import add
+
 assert j_calculator.add(2, 3) == add(2, 3)
 
 
@@ -53,6 +54,7 @@ print()
 
 # Case 2
 from myfolder import myops
+
 print(dir(myops))
 
 print(f"{myops.math.sqrt(81) =}")
@@ -62,7 +64,6 @@ print(f"{myops.factorial(8) =}")
 from myfolder.myops import factorial
 
 print(f"{factorial(8) =}")
-
 
 
 sys.dont_write_bytecode = True
@@ -85,4 +86,3 @@ print(dir(fib))
 
 print(f"{fib.DOZEN = }")
 print(f"{fib.fibonacci_series(4) = }")
-

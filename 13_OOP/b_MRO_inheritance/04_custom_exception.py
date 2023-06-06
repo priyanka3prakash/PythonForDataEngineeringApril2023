@@ -4,6 +4,7 @@ Purpose: Custom Exception Class
 
 # raise Exception('this is error')
 
+
 class InvalidAge(Exception):
     pass
 
@@ -11,10 +12,10 @@ class InvalidAge(Exception):
 # raise InvalidAge('your age is less than 18, to vote')
 
 
-
 class InvalidAge(Exception):
     def __init__(self, age):
         self.age = age
+
 
 def validate_age(_age):
     if _age < 18:

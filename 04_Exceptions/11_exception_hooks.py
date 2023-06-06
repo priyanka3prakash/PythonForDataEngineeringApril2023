@@ -9,6 +9,7 @@ Purpose: Exception Hooks
 """
 import sys
 
+
 def my_excepthook(exc_type, exc_value, exc_traceback):
     print("\nUnhandled error")
     print(
@@ -23,6 +24,7 @@ def my_excepthook(exc_type, exc_value, exc_traceback):
     """
     )
 
+
 sys.excepthook = my_excepthook
 
 print("Before exception")
@@ -35,7 +37,6 @@ try:
     1 / 0
 except ZeroDivisionError as ex:
     print(f"{ex=}")
-
 
 
 # case 3

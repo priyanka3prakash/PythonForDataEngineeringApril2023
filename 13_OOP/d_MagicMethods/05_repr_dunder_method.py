@@ -16,6 +16,7 @@ class TheProblem:
 
     __str__ = __repr__
 
+
 # NOTE: print will call __str__ if present, else __repr__
 
 
@@ -44,11 +45,11 @@ print(p2)
 
 # print(
 #     f"{p1 =}"
-# ) 
+# )
 
 
 # --------------------------------------------
-class Foo(object):
+class Foo:
     def __str__(self):
         return "Testing"
 

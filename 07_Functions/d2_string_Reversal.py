@@ -1,4 +1,3 @@
-
 # Example 2: String reversal
 """
 Python  # take first char and place at end
@@ -9,6 +8,7 @@ onPyth
 nPytho
 nohtyP
 """
+
 
 def string_reversal(word):
     if len(word) == 0:
@@ -28,6 +28,7 @@ honPyt
 thonPy
 ....
 """
+
 
 def string_reversal_1(word):
     if not word:

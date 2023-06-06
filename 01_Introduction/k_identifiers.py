@@ -18,7 +18,7 @@ print(keyword.kwlist)
 #  'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
 
-print(True) # True
+print(True)  # True
 # print(true) NameError: name 'true' is not defined. Did you mean: 'True'?
 
 

@@ -10,7 +10,7 @@ Purpose: partialmethod()
 from functools import partialmethod
 
 
-class Cell(object):
+class Cell:
     def __init__(self):
         self._alive = False
 

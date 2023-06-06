@@ -7,7 +7,7 @@ Purpose: Grocery Store
     rice        10/kg
     wheat       34/kg
 
-    
+
 Algorithm
 ----------
 Step 1: Get the cost of items into variables

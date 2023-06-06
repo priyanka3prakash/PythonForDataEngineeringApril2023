@@ -27,18 +27,18 @@ print("Hello", "world5", sep="#")
 print("Hello world6")  # 123kj12312390809i*^&*(*(*&(*)))
 print("Hello world7")  # This is about the world
 
-print('Hello world7')#
+print("Hello world7")  #
 # print('Hello world8'#)
 # SyntaxError: '(' was never closed
 
 # sldkjlkdj;wl kf'w;  dp'kwf';e kr'!@#$%^&*()
 
 
-'''
+"""
 Used to handle multi-line strings
 or
 in cases where multiple single and double quotes are present in string
-'''
+"""
 
 
 """

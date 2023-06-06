@@ -21,4 +21,8 @@ json_data = json.loads(open(sys.argv[1]).read())
 converted_json_data = json.dumps(json_data)
 
 # output yaml
-print(yaml.dump(yaml.load(converted_json_data, Loader=yaml.FullLoader), default_flow_style=False))
+print(
+    yaml.dump(
+        yaml.load(converted_json_data, Loader=yaml.FullLoader), default_flow_style=False
+    )
+)

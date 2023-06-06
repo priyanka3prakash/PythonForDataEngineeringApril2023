@@ -56,13 +56,13 @@ while i < 5:
     try:
         age = int(input("Enter the age:"))
         if age <= 0:
-            raise InvalidInput('Invalid Entry for the age!')
+            raise InvalidInput("Invalid Entry for the age!")
         elif age < 18:
             # raise InvalidAge('You are Ineligible to vote!!')
             raise InvalidAge(f"You are short by {18 - age} years for voting")
         else:
             votes += 1
     except Exception as ex:
-        print(f'{ex=}')
+        print(f"{ex=}")
     else:
         i += 1

@@ -20,7 +20,6 @@ with open("csvfile.csv", "w") as csvOutput:
         writer.writerow([s.replace("\n", "\\n") for s in row])
 
 
-
 """
 Quoting option: <csv.QUOTE_MINIMAL>
 John,Doe,25,john@example.com

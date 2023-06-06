@@ -18,7 +18,7 @@ print(f"{type(args.inputvalues)=}")  # list
 
 
 """
-python c_arg_parse.py 
+python c_arg_parse.py
 args.inputvalues =None
 
 python c_arg_parse.py --inputvalues 12 13 14

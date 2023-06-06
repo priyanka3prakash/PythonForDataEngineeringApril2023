@@ -14,13 +14,13 @@ class Animal:
 
 if __name__ == "__main__":
     # Instantiation
-    
-    # Animal() 
+
+    # Animal()
     # TypeError: Animal.__init__() missing 1 required positional argument: 'name'
 
     duck = Animal("Duck")
     # Animal.__init__(duck, "Duck")
-    
+
     print(duck)
 
     # TO retrieve the instance variables
@@ -33,7 +33,6 @@ if __name__ == "__main__":
     # -------------------
     rhino = Animal("African Rhino")
     rhino.walk()
-
 
     # TO retrieve the instance variables
     print(vars(rhino))

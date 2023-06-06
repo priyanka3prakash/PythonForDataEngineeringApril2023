@@ -1,13 +1,13 @@
 __all__ = ["E", "F"]
 
 
-class E(object):
+class E:
     pass
 
 
-class F(object):
+class F:
     pass
 
 
-class G(object):
+class G:
     pass

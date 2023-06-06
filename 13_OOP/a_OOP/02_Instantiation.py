@@ -14,14 +14,17 @@ PEP 8 -> class names should be in CamelCasing
 def hello():
     pass
 
-# Function call 
+
+# Function call
 hello()
 
 # ---------------------------------
 # Class Definition
 
+
 class EmptyClass:
     pass
+
 
 # Class call - Instantiation
 # - process for creating instance from a class
@@ -29,10 +32,10 @@ EmptyClass()
 
 e1 = EmptyClass()
 
-print(f"{type(EmptyClass) =}")   # <class 'type'>
+print(f"{type(EmptyClass) =}")  # <class 'type'>
 print(f"{EmptyClass =}")
 
-print(f"type(e1):{type(e1)}")   # <class '__main__.EmptyClass'>
+print(f"type(e1):{type(e1)}")  # <class '__main__.EmptyClass'>
 print(f"e1      :{e1}")
 
 
@@ -40,8 +43,9 @@ print(f"e1      :{e1}")
 assert issubclass(EmptyClass, object) is True
 
 
-class EmptyClass(object):
+class EmptyClass:
     pass
+
 
 # EmptyClass implicitly inherits from object
 assert issubclass(EmptyClass, object) is True

@@ -15,34 +15,29 @@ class Employee:
     # def total_employees_count(self):
     #     """This method is used to display the count of employees"""
     #     print(f"Total Employees count(before): {self.emp_count}")
-        
+
     #     self.emp_count += 1
     #     print(f"self.emp_count               : {self.emp_count}")
-        
-        
+
     #     print(f"Total Employees count(after): {self.emp_count}")
 
     # def total_employees_count(self):
     #     """This method is used to display the count of employees"""
     #     print(f"Total Employees count(before): {Employee.emp_count}")
-        
+
     #     Employee.emp_count += 1
     #     print(f"Employee.emp_count     : {Employee.emp_count}")
-        
-        
-    #     print(f"Total Employees count(after): {Employee.emp_count}")
 
+    #     print(f"Total Employees count(after): {Employee.emp_count}")
 
     # def total_employees_count(cls):  # class Method
     #     """This method is used to display the count of employees"""
     #     print(f"Total Employees count(before): {cls.emp_count}")
-        
+
     #     cls.emp_count += 1
     #     print(f"cls.emp_count     : {cls.emp_count}")
-        
-        
-    #     print(f"Total Employees count(after): {cls.emp_count}")
 
+    #     print(f"Total Employees count(after): {cls.emp_count}")
 
     def __del__(self):
         """

@@ -27,19 +27,15 @@ while i > 0:
     print(i, i * "*")
     i -= 1
 
-j = 0 
+j = 0
 while j < 10:
-    print(j, (9-j) * " " + j * "*")
+    print(j, (9 - j) * " " + j * "*")
     j += 1
 
 j = 10
 while j > 0:
-    print(j, (9-j) * " " + j * "*")
+    print(j, (9 - j) * " " + j * "*")
     j -= 1
-
-
-
-
 
 
 """

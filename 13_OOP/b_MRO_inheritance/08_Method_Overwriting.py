@@ -11,8 +11,7 @@ Purpose: Method Overwriting
 """
 
 
-
-class MyNewClass(object):
+class MyNewClass:
     """
     This is method overwriting
     """

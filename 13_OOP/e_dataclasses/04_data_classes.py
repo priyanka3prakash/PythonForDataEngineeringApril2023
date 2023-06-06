@@ -7,7 +7,7 @@ def random_price():
 
 
 @dataclass
-class Book(object):
+class Book:
     title: str
     author: str
     price: float = field(default_factory=random_price)

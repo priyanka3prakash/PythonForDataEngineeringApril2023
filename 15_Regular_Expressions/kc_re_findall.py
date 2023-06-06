@@ -1,15 +1,15 @@
 """
 Purpose: regular expression
 
-\d - presence of any digit 0-9
-\D - absence of any digit
-\w - presence of any alphanumeric a-z A-Z 0-9
-\W - absence of any alphanumeric
-\s  -presence of  white space AND \n
-\S  - absence of white space and \n
+\\d - presence of any digit 0-9
+\\D - absence of any digit
+\\w - presence of any alphanumeric a-z A-Z 0-9
+\\W - absence of any alphanumeric
+\\s  -presence of  white space AND \n
+\\S  - absence of white space and \n
 
 . (re operator) -> to get any character
-To escape any re operator in pattern, place a \ before it, or enclose in []
+To escape any re operator in pattern, place a \\ before it, or enclose in []
 """
 
 

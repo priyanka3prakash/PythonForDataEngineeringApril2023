@@ -15,7 +15,7 @@ assert toml_dict == {
     "players": [{"name": "Lehtinen", "number": 26}, {"name": "Numminen", "number": 27}]
 }
 
-with open("sample.toml", "r") as f:
+with open("sample.toml") as f:
     toml_dict = toml.load(f)
 
 print(toml_dict)

@@ -4,8 +4,8 @@ Purpose: property Decorator
 - USECASE: Helps in controlling life-cycle of variable
 """
 import logging
-logging.basicConfig(level=logging.DEBUG)
 
+logging.basicConfig(level=logging.DEBUG)
 
 
 class subject:
@@ -28,7 +28,6 @@ class subject:
         del self._name
 
     name = property(get_value, set_value, del_value)
-
 
 
 s = subject("udhay")

@@ -29,8 +29,6 @@ for each_student in students:
     print(each_student)
 
 
-
-
 print("2313")
 pass
 print("2313")

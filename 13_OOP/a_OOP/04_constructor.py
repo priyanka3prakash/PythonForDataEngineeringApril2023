@@ -4,8 +4,9 @@ Purpose: constructor is a method which will be
 """
 from pprint import pp
 
-class Person(object):
-    """ class definition"""
+
+class Person:
+    """class definition"""
 
     my_class_var = 111  # class - level variable
 
@@ -48,7 +49,7 @@ pp(vars(Person))
 print()
 # -------------------------------------------------
 
-pp(vars())   # pp(globals())
+pp(vars())  # pp(globals())
 
 # Note: calling the vars() function without parameters will
 # return a dictionary containing the local symbol table.

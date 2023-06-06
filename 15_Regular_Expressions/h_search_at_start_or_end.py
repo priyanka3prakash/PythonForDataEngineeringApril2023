@@ -1,4 +1,4 @@
-"""
+r"""
 Purpose: Regular Expressions
 
 Question: How to make re.search() to find at the end of string only
@@ -32,12 +32,12 @@ if result:
 print()
 
 # Method 2 - using \A and \Z
-result = re.search("abc\Z", "ABC123abc", re.I)
+result = re.search(r"abc\Z", "ABC123abc", re.I)
 print(f"\nresult:{result}")
 if result:
     print(f"result.group():{result.group()}")  # abc
 
-result = re.search("\Aabc", "ABC123abc", re.I)
+result = re.search(r"\Aabc", "ABC123abc", re.I)
 print(f"\nresult:{result}")
 if result:
     print(f"result.group():{result.group()}")  # ABC

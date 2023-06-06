@@ -40,4 +40,3 @@ print(
         fahrenheit  : {round(fahrenheit, 2)}
 """
 )
-

@@ -1,7 +1,7 @@
 """
 Purpose: Single Inheritance
 
-    int 
+    int
 
     Myint
 """
@@ -9,6 +9,7 @@ Purpose: Single Inheritance
 
 class MyInt(int):
     pass
+
 
 m = MyInt()
 print(MyInt.__mro__)

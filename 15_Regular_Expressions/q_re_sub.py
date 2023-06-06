@@ -4,7 +4,6 @@ purpose: regular expression
 
 import re
 
-
 p = re.compile("(blue|white|red)")
 
 print(p.match("blue Lorries and red Busses").group())

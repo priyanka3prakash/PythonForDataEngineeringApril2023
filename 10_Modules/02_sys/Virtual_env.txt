@@ -14,7 +14,7 @@ project -- 3.9
      python -m pip install --upgrade pip
 
 
-# create Virtual Environment 
+# create Virtual Environment
     python -m virtualenv .venv
 
 # activating the Virtual Environment

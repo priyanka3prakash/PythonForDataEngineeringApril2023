@@ -1,4 +1,3 @@
-
 import os
 import shutil
 
@@ -12,5 +11,6 @@ def copy_file(src_dir, dest_dir, filename):
         os.remove(dest_path)
 
     shutil.copyfile(source_path, dest_path)
+
 
 copy_file("source_dir", "destination_dir", "file1.txt")
