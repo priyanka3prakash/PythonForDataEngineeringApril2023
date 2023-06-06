@@ -4,7 +4,6 @@ import unittest
 # help(unittest)
 
 
-
 print(f"{2 + 3 == 5 = }")  # True
 assert 2 + 3 == 5
 
@@ -14,11 +13,9 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(2 + 3, 5)
 
 
-
 choice1 = True
 choice2 = False
 assert choice1 != choice2
-
 
 
 class TestCheck(unittest.TestCase):
@@ -37,10 +34,8 @@ class TestCheck(unittest.TestCase):
         self.assertNotEqual("Udhay", "udhay")
 
 
-
 if __name__ == "__main__":
     unittest.main(verbosity=4)
-
 
 
 """

@@ -343,14 +343,17 @@ Python Source code for Data Engineering related
         Doctest
         unittest
 
+### [Class 42 - 06th Jun, 2023]()
+
+        unittest & mocking
+        pytest & fixtures
+
 ### NEXT CLASS
 
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
-
-class 42
 
     17. Web Services
         consuming REST API

@@ -15,9 +15,11 @@ def hello():
 
 hello()
 
+
 # -------------------------------------
 # Method 2: Adding typing
 def hello2() -> None:
     print("Hello world")
+
 
 hello2()
