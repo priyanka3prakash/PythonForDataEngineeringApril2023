@@ -334,7 +334,7 @@ Python Source code for Data Engineering related
         Pearl-style regexes
         Realworld Problem (log analyses, email Validation, etc)
 
-### [Class 41 - 05th Jun, 2023]()
+### [Class 41 - 05th Jun, 2023](https://youtu.be/jiJxwQX2lTk)
 
     14. Code Quality
         static code analyses
