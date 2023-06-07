@@ -1,4 +1,3 @@
-
 def hello(name="world!"):
     """
     >>> hello()

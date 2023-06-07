@@ -10,8 +10,8 @@ How to run :
 nums = range(10)
 
 try:
-    name = input('Name:')
+    name = input("Name:")
 except Exception as ex:
     print(ex)
 else:
-    print('name', name)
+    print("name", name)
