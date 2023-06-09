@@ -343,27 +343,34 @@ Python Source code for Data Engineering related
         Doctest
         unittest
 
-### [Class 42 - 06th Jun, 2023]()
+### [Class 42 - 06th Jun, 2023](https://youtu.be/Bm1uiMMNyaw)
 
         unittest & mocking
         pytest & fixtures
 
+### [Class 43 - 07th Jun, 2023]()
+
+    17. Web Services
+        FTP
+        Ngrok Usage
+        RPC
+
+### [Class 44 - 08th Jun, 2023]()
+
+        consuming REST API
+        scraping web pages
+
 ### NEXT CLASS
+
+        creating web applications
+            using flask
+            using Django
+
 
     16. Databases
         db files - sqlite3
         Relational DB - MySQL
         Non-Relational DB - mongoDB
-
-    17. Web Services
-        consuming REST API
-        scraping web pages
-
-class 43
-
-        creating web applications
-            using flask
-            using Django
 
 class 44
 
