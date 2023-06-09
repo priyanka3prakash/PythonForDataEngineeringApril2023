@@ -23,14 +23,16 @@ c = inspect.currentframe()
 print(c.f_lineno)
 print(c.f_lineno)
 
-#---------------
+
+# ---------------
 def hello():
     print(dir(inspect.stack()[0]))
 
 
 hello()
 
-#----------------------
+
+# ----------------------
 def hello():
     previous_frame = inspect.currentframe().f_back
     (filename, line_number, function_name, lines, index) = inspect.getframeinfo(

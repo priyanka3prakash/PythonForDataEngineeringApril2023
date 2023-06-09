@@ -10,11 +10,11 @@ import objgraph
 # print(dir(objgraph))
 
 
-#Basic Reference Tracking
+# Basic Reference Tracking
 x = [1, 2, 3]
-y = [x, {'a': x}]
+y = [x, {"a": x}]
 
-objgraph.show_refs([x], filename='ref_graph.png')
+objgraph.show_refs([x], filename="ref_graph.png")
 
 
 objgraph.show_most_common_types()
