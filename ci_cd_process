@@ -1,0 +1,19 @@
+Ci/CD
+
+    Unit testing  -- mocks/pytest fixtures
+    Integration testsing/ end-to-end testing
+    code coverage
+    Linting Check -- sonarQube/flask8
+    Security  Scanning -- injectsion SQl (veracode)
+
+    whl -- project
+
+CD
+    -- cloudformation/terraform/Azure Bicep/ Pulumi -- IAAC
+    -  AW codepipline
+    - docker.yaml
+    - kubernets.yaml
+
+
+Ci/cd -- Jenkins/ AzureDevops / codeBuild/codePipeline
+         circleCI, TravisCi

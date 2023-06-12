@@ -1,0 +1,18 @@
+DB  <SQL>      <------------------
+
+    RPC -- Remote Procedure Calls
+        XML RPC
+        JSON RPC
+
+    SOAP
+        XML
+
+    REST API
+        /name
+        /qualificatins
+
+    GraphQL
+        datset/datapoint
+
+    gRPC
+        protobuff
